@@ -370,3 +370,19 @@ strong {
 .svg-color{
     color: #FFF;
 }
+
+.download-cv {
+    color: #fff;
+    display: flex;
+    border: 1px solid #fff;
+    padding: 10px 22px;
+    margin-top: 3.5rem;
+    cursor: pointer;
+}
+.download-cv > svg {
+    margin-left: 10px;
+}
+.download-cv:hover {
+    transition: all 0.5s ease 0s;
+    background-color: #1CB698;
+}
